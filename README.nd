@@ -1,0 +1,7 @@
+MUST DO:
+
+pip install ultralytics
+
+yolo detect train data=data.yaml model=yolov8n.pt epochs=60 imgsz=640 batch=4
+
+
