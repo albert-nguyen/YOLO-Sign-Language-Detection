@@ -2,6 +2,4 @@ MUST DO:
 
 pip install ultralytics
 
-yolo detect train data=data.yaml model=yolov8n.pt epochs=60 imgsz=640 batch=4
-
-
+python yolo_detect.py --model my_model.pt --source usb0 --resolution 1280x720
